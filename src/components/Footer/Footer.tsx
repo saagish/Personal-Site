@@ -1,5 +1,5 @@
 import logo1 from '../../img/yarl-it-hub-logo.png'
-import logo2 from '../../img/yarl-it-hub-logo.png';
+import logo2 from '../../img/uki-logo.png';
 import SocialMedia from './SocialMedia'
 
 export interface Props {
