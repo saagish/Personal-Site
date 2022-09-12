@@ -1,3 +1,4 @@
+import logo from "../../../img/saagithan-profile.png";
 import clsx from 'clsx'
 
 export interface Props {
@@ -6,8 +7,10 @@ export interface Props {
 
 const Avatar = ({ className }: Props) => {
   return (
-    <div className={clsx(className)}>
-      <span>Avatar</span>
+    <div className={clsx(className,
+    // 'ring-[10px]'
+    )}>
+      <img src={logo} alt='avatar' width="280"/>
     </div>
   )
 }
